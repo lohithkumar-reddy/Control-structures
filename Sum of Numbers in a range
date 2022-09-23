@@ -1,0 +1,6 @@
+l=int(input())
+h=int(input())
+s=0
+for i in range(l,h+1):
+   s=s+i
+print(s)
