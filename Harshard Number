@@ -1,0 +1,10 @@
+n=int(input())
+t=n
+s=0
+while n>0:
+    s=s+n%10
+    n=n//10
+if t%s==0:
+    print("Harshad Number")
+else:
+    print("Not Harshad Number")
