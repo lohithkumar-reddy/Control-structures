@@ -1,0 +1,9 @@
+l=int(input())
+h=int(input())
+for i in range(l+1,h):
+    f=1
+    for j in range(2,i):
+        if i%j==0:
+            f=0
+    if f:
+        print(i)
